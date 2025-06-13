@@ -1,0 +1,8 @@
+site_name: "recommendation-service"
+site_description: "gRPC service for recommendations"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

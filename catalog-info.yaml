@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: recommendation-service
+  description: "gRPC service for recommendations"
+  tags:
+    - java
+    - grpc
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: spotify-portal-public-demo/recommendation-service
+    sonarqube.org/project-key: spotify-portal-public-demo_recommendation-service
+    grafana/dashboard-selector: recommendation-service
+    backstage.io/kubernetes-id: recommendation-service
+    backstage.io/kubernetes-namespace: recommendation-service
+    backstage.io/kubernetes-label-selector: app=recommendation-service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/discovery"
+  system: "system:default/recommendation"
