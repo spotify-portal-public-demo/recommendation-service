@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: recommendation-service
-          image: ghcr.io/spotify-portal-public-demo/recommendation-service:main-f2c6bcc5-1749819229 # {"$imagepolicy": "flux-system:recommendation-service"}
+          image: ghcr.io/spotify-portal-public-demo/recommendation-service:main-70c5e3eb-1761225798 # {"$imagepolicy": "flux-system:recommendation-service"}
           imagePullPolicy: Always
           resources:
             requests:
