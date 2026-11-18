@@ -1,4 +1,4 @@
-FROM amazoncorretto:21-alpine
+FROM amazoncorretto:26-alpine
 ENTRYPOINT ["/usr/bin/recommendation-service.sh"]
 
 COPY recommendation-service.sh /usr/bin/recommendation-service.sh

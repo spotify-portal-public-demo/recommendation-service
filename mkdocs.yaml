@@ -1,5 +1,5 @@
 site_name: "recommendation-service"
-site_description: "gRPC service for recommendations"
+site_description: "gRPC service for recommendations requiring Java 26"
 
 nav:
   - Introduction: index.md
